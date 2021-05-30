@@ -8,44 +8,16 @@
     <title>Assignment GĐ2</title>
     <link rel="stylesheet" href="font/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="font/themify-icons/themify-icons.css">
+    <script type="module" src="js/index.js"></script>
+
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <div class="logo">
-                <a href="">
-                    <img src="img/logo.png" alt="" class="img-fluid">
-                </a>
-            </div>
-            <nav class="nav-menu">
-                <ul class="menu">
-                    <li><a href="">Sản phẩm</a></li>
-                    <li><a href="">Tin tức</a></li>
-                    <li><a href="">Giới thiệu</a></li>
-                    <li><a href="">Về chúng tôi</a></li>
-                </ul>
-            </nav>
-            <form action="" class="form-search">
-                <input type="text" placeholder="Product search" class="form-search__input">
-                <button type="submit" class="form-search__btn"><i class="fas fa-search"></i></button>
-
-            </form>
-            <section class="user">
-                <div class="user-top">
-                    <span><a href="">Đăng kí</a></span>
-                    <span><a href="">Đăng nhập</a></span>
-                </div>
-                <div class="user-main">
-                    <a href="">
-                        <img src="img/icon cart.png" alt="" class="img-fluid">
-                        <span class="quantity-cart">3</span>
-                    </a>
-                </div>
-            </section>
-        </header>
+        <my-header></my-header>
         <main>
             <section class="banner">
                 <div class="video" id="video">
@@ -163,47 +135,7 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-logo">
-                <a href="">
-                    <img src="img/logo-large.png" alt="" class="img-fluid">
-                </a>
-            </div>
-            <div class="footer-list">
-                <div class="footer-item">
-                    <a href="">liên hệ chúng tôi</a>
-                    <a href="">Điều khoản và điều kiện</a>
-                    <a href="">chính sách bảo mật</a>
-                </div>
-                <div class="footer-item">
-                    <a href="">Bản quyền</a>
-                    <a href="">Sự thật sản phẩm</a>
-                    <a href="">Định vị vửa hàng</a>
-                </div>
-                <div class="footer-item">
-                    <a href="">phục vụ pepsi</a>
-                    <a href="">về quảng cáo</a>
-                    <a href="">đối tác tiềm năng</a>
-                </div>
-            </div>
-            <div class="footer-follow">
-                <button>Theo dõi chúng tôi</button>
-                <div class="footer-social">
-                    <a href="">
-                        <i class="ti-twitter"></i>
-                    </a>
-                    <a href="">
-                        <i class="ti-facebook"></i>
-                    </a>
-                    <a href="">
-                        <i class="ti-instagram"></i>
-                    </a>
-                    <a href="">
-                        <i class="ti-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </footer>
+        <my-footer></my-footer>
     </div>
     <script src="js/modal.js"></script>
 </body>
