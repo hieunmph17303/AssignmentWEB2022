@@ -67,8 +67,24 @@ main {
     display: none;
 }
 
-.modal-container .show {
+.modal-close {
+    position: absolute;
+    top: 6%;
+    right: 10%;
+}
+
+.modal-close button {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+}
+
+.modal-container.show {
     opacity: 1;
+    display: block;
 }
 
 .hero__video-container {

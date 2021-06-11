@@ -184,7 +184,7 @@ class MyHeader extends HTMLElement {
                 </div>
                 <nav class="nav-menu">
                     <ul class="menu">
-                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
                         <li><a href="news.html">Tin tức</a></li>
                         <li><a href="about.html">Giới thiệu</a></li>
                         <li><a href="">Về chúng tôi</a></li>

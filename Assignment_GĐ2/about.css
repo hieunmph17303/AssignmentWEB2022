@@ -413,8 +413,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* ==============flow ==============*/
 
 .follow-pepsi {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px 100px 50px;
 }
 
 .follow-pepsi h3 {
